@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../css/style.css" />
+        <script type="text/javascript" src="../js/js.js"></script>
+    </head>
+    <title>안녕하세요</title>
+    <body>
+        <div id="intro">
+            <h2>자기소개</h2>
+            <ul>
+                <li>이름 : 지토(zeeto)</li>
+                <li>사는 곳 : 강서구</li>
+                <li>안녕하세요, 저는 지토입니다. 잘 부탁 드립니다!</li>
+            </ul>
+        </div>
+        <div id="movie">
+            <h2>인생 영화 BEST5</h2>
+            <table>
+                <th>순위</th>
+                <th>제목</th>
+                <th>포스터</th>
+                <th>줄거리</th>
+                <th>바로가기</th>
+                <tr>
+                    <td>1</td>
+                    <td>국가대표</td>
+                    <td class="image-td"><img src="../images/first.png" ></td>
+                    <td><p>하늘을 나는 꿈 (국가대표) | 우리는 대한민국 국가대표다!</p></td>
+                    <td><a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=47385">클릭</a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>어벤져스: 엔드게임</td>
+                    <td class="image-td"><img src="../images/second.jpeg" ></td>
+                    <td>
+                        <p>
+                            인피니티 워 이후 절반만 살아남은 지구
+                            마지막 희망이 된 어벤져스
+                            먼저 떠난 그들을 위해 모든 것을 걸었다!
+                        </p>
+                       </td>
+                    <td><a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=136900">클릭</a></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>괴물</td>
+                    <td class="image-td"><img src="../images/third.jpeg" ></td>
+                    <td>한강, 가족, 그리고... (괴물) | 가족의 사투가 시작된다 | 한강에 괴물이 나타났다</td>
+                    <td><a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=39841">클릭</a></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>아바타: 물의 길</td>
+                    <td class="image-td"><img src="../images/fourth.jpeg" ></td>
+                    <td>
+                        <p>
+                        아바타: 물의 길은 판도라 행성에서
+                        '제이크 설리'와 '네이티리'가 이룬 가족이 겪게 되는 무자비한 위협과
+                        살아남기 위해 떠나야 하는 긴 여정과 전투,
+                        그리고 견뎌내야 할 상처에 대한 이야기를 그렸다.
+                        </p>
+                    </td>
+                    <td><a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=74977">클릭</a></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>나 홀로 집에 2 - 뉴욕을 헤매다</td>
+                    <td class="image-td"><img src="../images/fifth.jpeg" ></td>
+                    <td>캐빈은 가족과 함께 플로리다로 크리스마스 휴가를 떠나기로 한다.</td>
+                    <td><a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=12270">클릭</a></td>
+                </tr>
+            </table>
+        </div>
+        <div id="guest-book">
+            <h2>방명록</h2>
+                <p><span>이름 : <input type="text" id="input-text"></span></p>
+                <span>본인 취향 영화</span>
+                <br>
+                <p id="checkbox-p">
+                    <span><label for="first">국가대표</label> <input type="checkbox" id="first"></span>
+                    <span><label for="second">어벤져스: 엔드게임</label> <input type="checkbox" id="second"></span>
+                    <span><label for="third">괴물</label> <input type="checkbox" id="third"></span>
+                    <span><label for="fourth">아바타: 물의 길</label> <input type="checkbox" id="fourth"></span>
+                    <span><label for="fifth">나 홀로 집에 2 - 뉴욕을 헤매다</label> <input type="checkbox" id="fifth"></span>
+                </p>
+            <button type="buttion" id="button">등록</button> <button type="reset" id="reset">취소</button>
+        </div>
+    </body>
+</html>
